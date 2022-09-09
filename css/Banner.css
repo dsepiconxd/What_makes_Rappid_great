@@ -1,0 +1,64 @@
+.banner{
+    width: 100%;
+    height: 51rem;
+    background-image: url(https://rockemma.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe9aba400-060b-4eaf-ac65-b701484136be%2Fbloque_1.png?table=block&id=fa843a98-7af0-413b-bf27-214b4eccf46b&spaceId=0915e43f-c5dd-45d3-87ce-889609799330&width=2000&userId=&cache=v2);
+    background-position: center;
+
+    position: relative;
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+.banner .contenido_banner{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2rem;
+}
+
+.contenido_banner span, h1, p{
+    color: var(--color4);
+    margin-top: 1rem;
+
+}
+
+.contenido_banner span{
+    font-size: 2rem;
+    top: 0rem;
+}
+
+.contenido_banner h1{
+    font-size: 4rem;
+    font-weight: 900;
+    top: 0rem;
+}
+
+.contenido_banner p{
+    font-size: 1.7rem;
+    top:28rem;
+}
+
+.boton{
+    width: 20rem;
+    height: 5rem;
+    text-decoration: none;
+    background-color: var(--color1);
+    color: var(--color4);
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    margin: auto;
+    margin-top: 0.5rem;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
